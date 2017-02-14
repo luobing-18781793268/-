@@ -1,0 +1,29 @@
+{
+  "checkCode":[
+              {
+               "picId":"3FPR",
+               "src":"../img/regist/GetCheckCode1.png"
+              },
+              {
+              "picId":"5584",
+              "src":"../img/regist/GetCheckCode2.png"
+              },
+              {
+              "picId":"4YMX",
+              "src":"../img/regist/GetCheckCode3.png"
+              },
+              {
+              "picId":"YTSM",
+              "src":"../img/regist/GetCheckCode4.png"
+              },
+              {
+              "picId":"SWG5",
+              "src":"../img/regist/GetCheckCode5.png"
+              },
+              {
+              "picId":"8DGC",
+              "src":"../img/regist/GetCheckCode6.png"
+              }
+              ]
+
+}

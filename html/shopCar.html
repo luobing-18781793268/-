@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/shopCar.css" />
+	</head>
+	<body>
+		<!--顶部-->
+		<div class="top">
+			<div class="warp c1">
+				<span class="top-link">
+					你好，欢迎来到
+					<em class="s-name">中酒网!</em>
+					<a href="index.html" target="_blank">去首页</a>
+				</span>
+				<ul class="login-regin">
+					<li><a href="index.html" class="phoneNum"></a>&nbsp;<a href="##">[退出]</a></li>
+				</ul>
+				<ul class="quick_list">
+					<li class="sitemap dropdown">
+						<a href="##">
+							我的中酒网
+							<b></b>
+						</a>
+					</li>
+					<li>
+						<em class="shopping-cart"></em>
+						<a href="##">
+							购物车
+							<em><span class='shopping-amount'>0</span></em>
+							件
+						</a>
+					</li>
+					<li class="moblie-qrcode dropdown">
+						<a href="##">微信端</a>
+						<div class="weixin"><!--<img src="../img/pay/qrCode.png"/>--></div>
+					</li>
+					<li class="app-qrcode dropdown service">
+						<a href="##">APP</a>
+						<div class="app"><!--<img src="../img/pay/app.gif"/>--></div>						
+					</li>
+					<li class="service sellHome dropdown">
+						<a href="##">
+							卖家中心
+							<b></b>
+						</a>
+						<div class="dropdown-menu">
+							<ol class="ol">
+								<!--<li>
+									<a href="##">商家入驻</a>
+								</li>
+								<li>
+									<a href="##">已卖出商品</a>
+								</li>
+								<li>
+									<a href="##">发布商品</a>
+								</li>
+								<li>
+									<a href="##">管理商品</a>
+								</li>-->
+							</ol>
+						</div>
+					</li>
+					<li class="service dropdown">
+						<a href="##">订购热线：400-798-9999</a>
+					</li>
+				</ul>	
+			</div>
+		</div>
+		<!--logo-->
+		<div class="w990 w1 c1">
+		<div class="logo">
+			<a href="##"><img src="../img/pay/logo.png"/></a>
+		</div>
+		<div class="progress c1">
+			<ul class="progress- pro-c1">
+				<li class="step1">1.我的购物车</li>
+				<li class="step2">2.填写核对订单信息</li>
+				<li class="step3">3.成功提交订单</li>
+			</ul>
+		</div>
+		</div>
+		<!--我的购物车-->
+		<div class="w990 cart">
+			<div class="cart-hd group">
+				<h2>我的购物车</h2>
+			</div>
+			<div class="show">
+				<div class="cart-inner">
+					<div class="message">
+						<ul></ul>
+					</div>
+					<div class="cart-list">
+						<div class="cart-thead c1">
+							<div class="column t-checkbox form">
+								<input type="checkbox" checked />
+								<label>全选</label>
+							</div>
+							<div class="column t-goods">商品</div>
+							<div class="column t-price">商城价</div>
+							<div class="column t-quantity">数量</div>
+							<div class="column t-action">操作</div>
+						</div>
+						<div id="product-list" 	class="cart-tbody">
+							<div class="cart-toolbar c1">
+								<span class="column t-checkbox form">
+									<input type="checkbox" class="shopSelect" value="1" checked/>
+									<label><a href="##">中酒自营店</a></label>
+								</span>
+							</div>
+							
+								<!--<div class="item item_selected">
+									<div class="item_form c1">
+										<div class="cell p-checkbox">
+											<input class="checkbox" type="checkbox" checked value="1" />
+										</div>
+										<div class="cell p-goods">
+											<div class="p-img"></div>
+											<div class="p-name"></div>
+											<div class="p-code"></div>
+										</div>
+										<div class="cell p-price">
+											<span class="price"></span>
+										</div>
+										<div class="cell p-quantity">
+											<div class="quantity-form"></div>
+										</div>
+										<div class="cell p-remove"></div>
+									</div>
+								</div>-->
+								
+								
+							<div class="ui-ceilinglamp-1">
+							     <div class="cart-dibu">
+							     	<div class="cart-total-2014">
+							     		<span class="column t-checkbox form">
+							     			<!--<input type="checkbox" checked class="jdcheckbox" />
+							     			<label>全选</label>-->
+							     		</span>
+							     		<span class="delate"></span>
+							     		<!--<span class="selectedCount"></span>件商品-->
+							     		<div class="cart-button"></div>
+							     		<div class="total fr">总计：<span></span></div>
+							     	</div>
+							     </div>	
+							</div>
+							
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/shopCar.js" ></script>
+	</body>
+</html>

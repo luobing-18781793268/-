@@ -1,0 +1,514 @@
+*{
+	margin:0;
+	padding:0;
+}
+#top-lead{
+	background: url(../../img/index/dt920.jpg) center top no-repeat;
+	height:90px;
+}
+#top-lead .box1-wrap{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+	overflow: hidden;
+}
+#top-lead .box1-wrap a{
+	float: left;
+	width:100%;
+	height:100%;
+}
+
+
+/*网站导航*/
+#site-nav{
+	height:30px;
+	border-bottom: 1px solid #ececec;
+	background-color:#f2f2f2 ;
+}
+.w{
+	width:1180px;
+	margin:0 auto;
+}
+#site-nav .f1{
+	float:left;
+}
+#site-nav ul li{
+	float:left;
+	padding-right:20px;
+	line-height: 30px;
+	color: #999;
+	list-style: none;
+}
+#site-nav i{
+	display: inline-block;
+	height:30px;
+	padding-right:4px;
+	vertical-align: middle;
+	font-style: normal;
+}
+#site-nav i.icon-home{
+	width:15px;
+	background: url(../../img/index/icon_index.png) 0 6px no-repeat;
+}
+#site-nav ul li a{
+	color: #999;
+	text-decoration: none;	
+}
+#site-nav ul li .highlight{
+	color:#b81c22;
+}
+.highlight{
+	color:#b81c22;
+}
+.fr{
+	float:right;
+}
+#site-nav i.icon-my{
+	background: url(../../img/index/icon_index.png) -80px 6px no-repeat;
+	width:10px;
+}
+#site-nav i.icon-goweb{
+	background: url(../../img/index/icon_index.png) -160px 6px no-repeat;
+	width:10px;
+} 
+#site-nav i.icon-call{
+	background: url(../../img/index/icon_index.png) -240px 6px no-repeat;
+	width:10px;
+}
+#site-nav .weibo-img{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	cursor: pointer;
+}
+#site-nav .weibo-img .weibo1{
+	height:30px;
+	width:30px;
+	border:0 none;
+	vertical-align: top;
+}
+#site-nav .weibo-img .weibo2{
+	height:150px;
+	width:150px;
+	position: absolute;
+	z-index: 1000;
+	top:30px;
+	left:-50px;
+	display: none;
+}
+#site-nav .weixin-img{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	cursor: pointer;
+}
+#site-nav .weixin-img .weixin1{
+	height:20px;
+	width:20px;
+	border:0 none;
+	vertical-align: middle;
+}
+#site-nav .weixin-img .weixin2{
+	height:150px;
+	width:150px;
+	position: absolute;
+	z-index: 1000;
+	top:30px;
+	left:-50px;
+	display: none;
+}
+#site-nav ul a:hover{
+	color:#b81c22;
+}
+
+
+/*网站头部*/
+#header-cont{
+	clear:both;
+	height:104px;
+}
+
+/*logo部分*/
+#header-cont .logo{
+	width:400px;
+	background: url(../../img/index/zj-logo.png) left center no-repeat;
+}
+.f1{
+	float: left;
+}
+#header-cont .logo a{
+	display: inline-block;
+	height:42px;
+	line-height: 21px;
+	font-size: 14px;
+	padding:34px 0px 28px 209px;
+	float: left;
+}
+#header-cont .logo .gif{
+	width:77px;
+	height:55px;
+	float:left;
+	margin:20px 0 0 0px;
+}
+#header-cont .logo .gif a{
+	width:100%;
+	height:100%;
+	display: block;
+	cursor: pointer;
+	padding:0;
+}
+
+/*搜索框部分*/
+#header-cont .search{
+	width:500px;
+	padding-top:28px;
+}
+.search_wrap{
+	border: 3px solid #b81c22;
+	height:32px;
+}
+.search_box{
+	display: inline;
+	z-index: 3;
+	position: relative;
+	float: left;
+	height:32px;
+	width:417px;
+}
+.search_box input{
+	color: #333;
+    height: 24px;
+    line-height: 24px;
+    padding: 4px;
+    width: 412px;
+    border: none;
+    display: inline;
+}
+.search_btn{
+	height:32px;
+	width:74px;
+	float:right;
+}
+.search_btn input{
+	font-size: 16px;
+	background-color: #b81c22;
+	border: 0;
+    color: #fff;
+    cursor: pointer;
+    height: 32px;
+    text-align: center;
+    width: 74px;
+    display: inline;
+}
+#tipList{
+	position:absolute;
+	top:40px;
+	/*height:500px;
+	width:500px;*/
+	display: block;
+	z-index: 1000;
+	background: yellow;
+	font-size: 20px;
+}
+
+/*热门搜索*/
+#header-cont .search .hot-search{
+	padding-top: 7px;
+    height: 18px;
+    overflow: hidden;
+    padding-right: 30px;
+}
+#header-cont .search .hot-search h2{
+	float: left;
+	color: #999;
+	font-size: 100%;
+	font-weight: normal;
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#header-cont .search .hot-search a{
+	float: left;
+	margin: 0 7px;
+	color: #999;
+	text-decoration: none;
+}
+#header-cont .search .hot-search a:hover{
+	color: #B81C22;
+}
+
+/*购物车*/
+#header-cont .shopcar{
+    z-index: 3;
+    position: relative;
+    width: 142px;
+    height: 38px;
+    margin-top: 28px;
+    margin-right: 30px;
+}
+#header-cont .shopcar dt{
+	z-index: 1;
+    position: relative;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #e6e3d3;
+    line-height: 36px;
+    text-align: center;
+    color: #666;
+}
+#header-cont .shopcar i.icon-car{
+	position: absolute;
+    margin-top: 9px;
+    left: 16px;
+    width: 17px;
+    height: 17px;
+    background:url(../../img/index/icon_index.png) 0 -80px no-repeat;
+}
+#header-cont .shopcar .icon-count{
+	position: absolute;
+    margin-top: -3px;
+    padding-left: 5px;
+    font-size: 11px;
+    color: #fff;
+    background: url(../../img/index/icon_index.png) -80px -80px no-repeat;
+}
+#header-cont .shopcar .icon-count i{
+	display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    padding-right: 6px;
+    background: url(../../img/index/icon_index.png) right -240px no-repeat;
+}
+#header-cont .shopcar i .arrow{
+	position: absolute;
+	margin-left:19px;
+}
+.arrow{
+	font-size: 10px;
+	color: #999;
+}
+
+/*购物车的篮子*/
+#header-cont .shopcar dd {
+    display: none;
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    width: 273px;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
+#header-cont .shopcar .nothing {
+    padding-left: 73px;
+    height: 61px;
+    line-height: 61px;
+    color: #999;
+}
+#header-cont .shopcar .nothing i {
+    position: absolute;
+    top: 0;
+    width: 44px;
+    height: 61px;
+    margin-left: -52px;
+    background: url(../../img/index/icon_index.png) -160px -68px no-repeat;
+}
+
+
+/*main导航*/
+#main-nav{
+	height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #b81c22;
+}
+#main-nav .w{
+    position: relative;
+    z-index: 2;
+}
+#category-nav{
+	position: absolute;
+	left:0px;
+	width:200px;
+}
+.clearfix{
+	zoom:1;
+}
+#category-nav h2{
+	height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    padding-left: 57px;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #b81c22;
+}
+#category-nav>div{
+	display: block;
+	height:60px;
+	background-color: #313131;
+}
+#category-nav>div:hover{
+	background-color: #B81C22;
+}
+#category-nav h3{
+	position: relative;
+    z-index: 1;
+    margin: 0 7px;
+    padding-left: 50px;
+    border-bottom: 1px dashed #484848;
+    line-height: 59px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+/*名优白酒*/
+#category-nav h3 .icon-bai{
+	background: url(../../img/index/icon_index.png) 0 -143px no-repeat;
+}
+#category-nav h3 i{
+	position: absolute;
+    width: 20px;
+    height: 59px;
+    margin-left: -35px;
+}
+#category-nav h3 a{
+	color: #fff;
+}
+#category-nav>div:hover .icon-tri{
+	display: block;
+}
+#category-nav h3 .icon-tri{
+	right: -16px;
+    top: 25px;
+    margin-left: auto;
+    border-color: transparent transparent transparent #b81c22;
+    border-style: solid;
+    border-width: 6px 0 6px 9px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    display: none;
+}
+#category-nav .pop{
+	display: none;
+    position: absolute;
+    top: 42px;
+    left: 200px;
+    width: 740px;
+    height: 320px;
+    overflow: hidden;
+    padding: 19px;
+    border: 1px solid #d7d7d7;
+    background-color: #FFF;
+    line-height: 1;
+}
+#category-nav .pop-trees{
+	width:560px;
+}
+#category-nav .pop-trees dt{
+	margin-right: 22px;
+    border-bottom: 1px solid #313131;
+}
+#category-nav .pop dt{
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #313131;
+    font-weight: bold;
+}
+#category-nav .pop-trees dd{
+	padding:15px 0;
+}
+#category-nav .pop-trees ul{
+    width: 100%;
+    overflow: hidden;
+}
+#category-nav .pop-trees ul li{
+	float: left;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    color: #313131;
+}
+#category-nav .pop-trees ul li:first-child{
+	width:80px;
+}
+#category-nav .pop-trees ul li.lastChild{
+	width:80px;
+}
+#category-nav .pop-trees ul li a{
+	color: #333;
+}
+#category-nav .pop-promotion{
+	width:180px;
+}
+#category-nav .pop-promotion dd{
+	width: 100%;
+    height: 124px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+#category-nav .pop-promotion dd img{
+	height:100%;
+	width:100%;
+}
+img{
+	border:0 none;
+	vertical-align: top;
+}
+
+/*葡萄酒/红酒*/
+#category-nav h3 .icon-hong{
+	background: url(../../img/index/icon_index.png) -80px -143px no-repeat;
+}
+/*洋酒*/
+#category-nav h3 .icon-yang{
+	background: url(../../img/index/icon_index.png) -160px -143px no-repeat;
+}
+/*黄酒*/
+#category-nav h3 .icon-pi{
+	background: url(../../img/index/icon_index.png) -240px -143px no-repeat;
+}
+/*礼品专区*/
+#category-nav h3 .icon-li{
+	background: url(../../img/index/icon_index.png) -320px -143px no-repeat;
+}
+/*婚庆专用*/
+#category-nav h3 .icon-hun{
+	background: url(../../img/index/icon_index.png) -400px -143px no-repeat;
+}
+
+/*导航*/
+#top-nav{
+	margin-left: 200px;
+}
+#top-nav li{
+	float: left;
+     /*width: 100px; */
+    padding: 0 20px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: #313131;
+}
+#top-nav li a{
+	position: relative;
+}
+#top-nav li a:hover{
+	color: #B81C22;
+}
+em{
+	font-style: normal;
+}
+
+/*hot图标*/
+#top-nav li a .hot{
+	background: url(../../img/index/hot.png) no-repeat scroll center top;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 29px;
+}

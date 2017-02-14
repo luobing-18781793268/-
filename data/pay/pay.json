@@ -1,0 +1,33 @@
+{ 
+    "weixin":[{
+              "pic1":"img/pay/qrCode.png"   
+             }],
+    "app":[{
+            "pic2":"img/pay/app.gif"
+          }  
+         ],
+
+    "sellHome":[{
+		    "l1":"商家入驻",
+		    "l2":"已卖出商品",
+		    "l3":"发布商品",
+		    "l4":"管理商品"
+         }],
+    "phoneNum":[{
+            "phoneNumber":18781793268
+                          
+               }],
+    "goodsDetail":[{
+             "backImg":"img/pay/step2.jpg",
+             "goodsImg":"img/pay/1_50.png",
+             "goodsName":"52°茅台醇原浆 500ml (6瓶装)",
+             "goodsNum":"685468456154654515",
+             "goodsPrice":"￥259.00",
+             "goodsNumber":"x 1"             
+                  }]                 
+}
+
+
+
+
+

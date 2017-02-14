@@ -1,0 +1,355 @@
+
+#category-nav .move{
+	display: none;
+}
+
+/*楼梯*/
+.wly-md {
+    width: 129px;
+    height: 364px;
+    background: url(../img/goodList/2wly-md.png);
+    position: fixed;
+    right: 5%;
+    /*display: none;*/
+    top: 50%;
+    margin-top: -182px;
+}
+.wly-md .md {
+    width: 90px;
+    height: 209px;
+    margin: 98px 20px 0;
+}
+.wly-md .md a {
+    display: block;
+    width: 90px;
+    height: 53px;
+    margin-bottom: 1px;
+}
+.wly-md .md .md_a1 {
+    height: 40px;
+}
+
+/*中间部分*/
+.wly2-img1 {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    background: url(../img/goodList/2wly-img1.jpg) center center no-repeat;
+}
+.wly2-img2 {
+    width: 100%;
+    height: 290px;
+    background: url(../img/goodList/2wly-img2.jpg) center center no-repeat;
+}
+.wly2-img3 {
+    width: 100%;
+    height: 265px;
+    background: url(../img/goodList/2wly-img3.jpg) center center no-repeat;
+}
+.wly-bg {
+    width: 100%;
+    background: url(../img/goodList/l-bg.jpg) center top repeat-y;
+}
+.wly2-title1 {
+    width: 100%;
+    height: 175px;
+    background: url(../img/goodList/2wly-title1.jpg) center center no-repeat;
+    clear: both;
+}
+.wp990 {
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.clearfid {
+    display: block;
+}
+.p-one {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+.p-one a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+img {
+    border: 0 none;
+    display: inline;
+    font-size: 0;
+    vertical-align: top;
+}
+.p-one .my-price {
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+}
+.p-one .my-price span.row1 {
+    display: none;
+}
+.z12-1 .row1 {
+    left: -158px;
+    position: absolute;
+    top: -50px;
+    width: 200px;
+}
+.p-one .row1 {
+    color: #000000;
+    font-size: 14px;
+    /*display: block;*/
+    text-align: right;
+}
+.z12-1 .row2 {
+    left: 17px;
+    position: absolute;
+    top: -28px;
+    font-weight: bold;
+}
+.p-one .row2 {
+    color: #f8042d;
+    font-size: 38px;
+    display: block;
+}
+.p-one .my-price span {
+    display: block;
+}
+.fl {
+    float: left;
+}
+.stwo {
+    float: left;
+    margin: 0;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+.stwo a {
+    display: block;
+}
+.wp990 .icon {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 68px;
+    height: 64px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.stwo .my-price {
+    position: absolute;
+    top: 192px;
+    left: 315px;
+}
+.z12-3 .row1 {
+    left: 55px;
+    top: 85px;
+}
+.stwo .row1 {
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+.stwo .row1 {
+    font-size: 14px;
+    color: #202020;
+}
+.z12-3 .row2 {
+    left: 140px;
+    position: absolute;
+    top: 103px;
+}
+.stwo .row2 {
+    display: block;
+    font-size: 14px;
+    color: #dc1211;
+}	
+.stwo .row2 i {
+    font-size: 24px;
+    font-weight: bold;
+}
+.stwo.fr {
+    float: right;
+}
+
+.wly2-title2 {
+    width: 990px;
+    height: 175px;
+    margin: 0 auto;
+    background: url(../img/goodList/2wly-title2.jpg) center center no-repeat;
+    clear: both;
+}
+.c-bg {
+    width: 938px;
+    overflow: hidden;
+    background: url(../img/goodList/c-bg.jpg) center top repeat-y;
+    padding: 0 26px;
+}
+.four1 {
+    width: 230px;
+    height: 330px;
+    margin: 0 0 7px 4px;
+    position: relative;
+    float: left;
+    background: #ffffff;
+    overflow: hidden;
+}
+.four1-img {
+    width: 230px;
+    height: 230px;
+    padding: 0;
+    position: relative;
+}
+.four1-img img {
+    width: 190px;
+    height: 190px;
+    padding: 26px 27px;
+}
+.wp990 .icon {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 68px;
+    height: 64px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.four1-text {
+    position: relative;
+    height: 100px;
+    background-color: #efefef;
+}
+.four1-text a {
+    display: block;
+    height: 100%;
+}
+.four1 .my-price-line-zi {
+    position: absolute;
+    top: 52px;
+    padding-left: 26px;
+    font-weight: normal;
+}
+.four1 .my-price-line-zi {
+    width: 221px;
+    /*padding-left: 24px;*/
+    font-size: 15px;
+    color: #ff0000;
+   /* font-weight: bold;*/
+    text-align: left;
+}
+.four1 .my-price {
+    font-size: 30px;
+    margin-left: 6px;
+}
+.four1 .market-price-line {
+    position: absolute;
+    top: 55px;
+    padding-left: 8px;
+    text-decoration: line-through;
+}
+.four1 .market-price-line {
+    width: 221px;
+    /*padding-left: 24px;*/
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    text-align: left;
+}
+.market-price-line {
+    display: none;
+}
+.four1 .name-line {
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    margin: auto;
+}
+.four1 .name-line {
+    width: 226px;
+    /*height: 14px;
+    padding-left: 19px;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  /*  margin-top: 10px;*/
+    font-size: 13px;
+    /*line-height: 13px;*/
+    color: #000000;
+    text-align: left;
+}
+.four1 .ad-line {
+    display: block;
+    margin-top: -3px;
+    padding-left: 8px;
+}
+.four1 .ad-line {
+    width: 226px;
+    height: 14px;
+ /*   padding-left: 19px;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   /* margin-top: 7px;*/
+    font-size: 13px;
+    line-height: 13px;
+    text-align: left;
+    color: #fd251d;
+}
+.four1 .button-line {
+    right: 5px;
+}
+.four1 .button-line {
+    position: absolute;
+    /*right: 15px;*/
+    bottom: 11px;
+    width: 38px;
+    height: 32px;
+    margin: auto;
+    border: none;
+    padding: 3px 0;
+    border-radius: 5px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    background: #e90100;
+}
+.four1 .button-line {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+}
+
+.wly2-title3 {
+    width: 990px;
+    height: 175px;
+    margin: 0 auto;
+    background: url(../img/goodList/2wly-title3.jpg) center center no-repeat;
+    clear: both;
+}
+
+.wly2-img4 {
+    width: 100%;
+    height: 93px;
+    background: url(../img/goodList/2wly-b1.jpg) center center no-repeat;
+}
+
+.wly2-img5 {
+    width: 100%;
+    height: 238px;
+    background: url(../img/goodList/2wly-b2.jpg) center center no-repeat;
+}
+
+.wly2-img6 {
+    width: 100%;
+    height: 217px;
+    background: url(../img/goodList/2wly-b3.jpg) center center no-repeat;
+}
+
+.wly2-img7 {
+    width: 100%;
+    height: 350px;
+    background: url(../img/goodList/2wly-b4.jpg) center center no-repeat;
+}

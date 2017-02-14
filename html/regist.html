@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/regist.css" />
+	</head>
+	<body>
+		<!--注册-->
+		<div class="load_wrap">
+			<!--头部-->
+			<div class="load_top">
+				<ul class="top_l">
+					<li class="top_l1">
+						<a href="#"></a>
+					</li>
+					<li class="top_l2">登录</li>
+				</ul>
+				<ul class="top_r">
+					<li class="top_r1">100%正品</li>
+					<li class="top_r2">一时达</li>
+					<li class="top_r3">金牌客服</li>
+				</ul>
+				
+			</div>
+			
+			<!--中间注册-->
+			<div class="load_con">
+				<div class="load_con_l_reg"></div>
+				<div class="load_con_r">
+					<div class="r_con re_back">
+						<p class="re_back_link">
+							我已经注册，马上
+							<a href="login.html">登录》</a>
+						</p>
+						<!--手机号-->
+						<div class="cell">
+							<!--<label class="userId" id="userId_moren">请输入手机号</label>-->
+							<input id="userId" type="text" class="text" placeholder="请输入手机号"/>
+							<span class="ok" id="userId_ok"></span>
+							<div class="cell_hid" id="phoneNumber_error">
+								<span class="sanj"></span>
+								<span id="yanZhengCode_email_error_content">请输入正确的号码</span>
+							</div>
+						</div>
+						<!--验证码-->
+						<div class="cell vcode" id="userId_email">
+							<!--<label class="yanZhengCode_email" id="yanZhengCode_email_moren">请输入验证码</label>-->
+							<input class="text" type="text" id="yanZhengCode_email" placeholder="请输入验证码"/>
+							<span class="ok" id="yanZhengCode_email_ok"></span>
+							<!--隐藏框1-->
+							<div class="cell_hid" id="yanZhengCode_email_error">
+								<span class="sanj"></span>
+								<span id="yanZhengCode_email_error_content">请输入正确的验证码</span>
+							</div>
+							<!--验证码图片-->
+							<div class="c_img">
+								<a href="#">
+									<img id="img_code" src="../img/regist/GetCheckCode1.png" />
+								</a>
+							</div>
+							<div class="c_ts">
+								<a href="#">
+									看不清?
+									<br>换一张
+								</a>
+							</div>
+						</div>
+						<!--获取验证码-->
+						<div class="cell vcode" id="userId_moblie">
+							<!--<label class="yanZhengCode" id="yanZhengCode_moren">请输入验证码</label>-->
+							<input class="text" type="text" id="yanZhengCode" placeholder="请输入校验码" />
+							<span class="ok" id="yanZhengCode_ok"></span>
+							<div class="cell_hid" id="yanZhengCode_error">
+								<span class="sanj"></span>
+								<span id="yanZhengCode_error_content">请输入正确的验证码</span>
+							</div>
+							<div class="c_yz" id="moblieCss">
+								<a href="#">免费获取校验码</a>
+							</div>
+						</div>
+						<!--输入密码-->
+						<div class="cell">
+							<!--<label class="password" id="passWord_moren">请输入密码</label>-->
+							<input type="password" id="password" class="text" placeholder="请输入密码"/>
+							<span class="ok" id="passWord_ok"></span>
+							<div class="cell_hid" id="passWord_error">
+								<span class="sanj"></span>
+								<span class="passWord_error_content">请输入正确的密码</span>
+							</div>
+						</div>
+						<!--确认密码-->
+						<div class="cell">
+						    <!--<label class="repeatPassWord" id="repeatPassWord_moren">请输入确认密码</label>-->
+							<input type="password" id="repeatPassWord" class="text" placeholder="请输入确认密码"/>
+							<span class="ok" id="repeatPassWord_ok"></span>
+							<div class="cell_hid" id="repeatPassWord_error">
+								<span class="sanj"></span>
+								<span class="repeatPassWord_error_content">密码不一致</span>
+							</div>
+						</div>
+						<!--注意协议-->
+						<div class="r_load">
+							<a href="##" ><input class="r_load_btn" type="submit" id="r_load_btn" value="同意协议并注册"/></a>
+						</div>
+						<!--条款-->
+						<sapn class="re_back_link">
+							<a href="##" target="_blank">《中酒网服务条款》</a>
+						</span>						
+					</div>
+					<div class="r_con_sd"></div>
+				</div>			
+			</div>
+		</div>
+		<!--尾部-->
+		<div class="load_foot">
+			<p>
+				Copyright © 2016 中酒网(www.zhongjiu.cn) 版权所有
+				<a href="#" target="_blank"> 京ICP备12022216号-2</a>
+			</p>
+			<p>
+				<i class="red">购买前请确认达到法定饮酒年龄！</i>
+				中酒网不销售任何含酒精产品给18岁以下人士！
+			</p>
+		</div>
+		
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/regist.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/login.css" />
+	</head>
+	<body>
+		<!--注册-->
+		<div class="load_wrap">
+			<!--头部-->
+			<div class="load_top">
+				<ul class="top_l">
+					<li class="top_l1">
+						<a href="#"></a>
+					</li>
+					<li class="top_l2">登录</li>
+				</ul>
+				<ul class="top_r">
+					<li class="top_r1">100%正品</li>
+					<li class="top_r2">一时达</li>
+					<li class="top_r3">金牌客服</li>
+				</ul>				
+			</div>
+			
+			<!--中间注册-->
+			<div class="load_con">
+				<div class="load_con_l_reg"></div>
+				<div class="load_con_r">
+					<div class="r_con">
+						<!--邮箱手机用户名-->
+						<div class="cell">
+							<!--<label class="userId" id="userId_MoRen">邮箱/手机号/用户名</label>-->
+							<input type="text" class="text" id="userId" placeholder="手机号" />
+							<span class="ok" id="userId_ok"></span>
+							<div class="cell_hid" id="phoneNumber_error">
+								<span class="sanj"></span>
+								<span id="userId_error_content">请输入正确的手机号</span>
+							</div>
+						</div>
+						<!--请输入密码-->
+						<div class="cell">
+							<!--<label class="passWord" id="passWord_MoRen">请输入密码</label>-->
+							<input type="password" class="text" id="password" placeholder="请输入密码" />
+							<span class="ok" id="passWord_ok"></span>
+							<div class="cell_hid" id="passWord_error">
+								<span class="sanj"></span>
+								<span id="passWord_error_content">密码不正确</span>
+							</div>
+						</div>
+						<!--记住密码-->
+						<div class="r_rem">
+							<input class="choosePsw" type="checkbox" />
+							<span class="r_rem1" id="remberUserId">记住用户名</span>
+							<a href="#" class="r_rem2">忘记密码?</a>
+						</div>
+						<!--登录-->
+						<div class="r_load">
+							<a href="##"><input type="submit" class="r_load_btn" id="r_load_btn" value="登录"/></a>
+							<a href="regist.html" class="r_load_zc">30秒注册》</a>
+						</div>
+						<!--使用合作-->
+						<div class="r_other">
+							<p class="r_other1">使用合作网站账号登录:</p>
+							<p class="r_other2">
+								<a href="#" class="ro1"></a>
+								<a href="#" class="ro2"></a>
+								<a href="#" class="ro3"></a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<!--尾部-->
+		<div class="load_foot">
+			<p>
+				Copyright © 2016 中酒网(www.zhongjiu.cn) 版权所有
+				<a href="#" target="_blank"> 京ICP备12022216号-2</a>
+			</p>
+			<p>
+				<i class="red">购买前请确认达到法定饮酒年龄！</i>
+				中酒网不销售任何含酒精产品给18岁以下人士！
+			</p>
+		</div>
+		
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/login.js" ></script>
+	</body>
+</html>

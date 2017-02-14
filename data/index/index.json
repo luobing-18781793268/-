@@ -1,0 +1,21 @@
+{
+   "tuijian":{
+             "img0":"../img/index/0614mt.jpg",
+             "img1":"../img/index/0418wly.jpg",
+             "img2":"../img/index/0315lz.jpg",
+             "img3":"../img/index/0618tianyoude.jpg"             
+    },
+   "guoji":{
+            "img0":"../img/index/lafei (1).jpg",
+            "img1":"../img/index/0718telatuo.jpg",
+            "img2":"../img/index/makesiwei.jpg",
+            "img3":"../img/index/daishu (1).jpg"
+   },
+   "guonei":{
+           "img0":"../img/index/0718telatuo.jpg",
+           "img1":"../img/index/0718telatuo.jpg",
+           "img2":"../img/index/makesiwei.jpg",
+           "img3":"../img/index/makesiwei.jpg"
+   }
+}
+

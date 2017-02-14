@@ -1,0 +1,34 @@
+{
+  "goodsMsg":[{
+              "shouye":"首页>",
+              "baijiu":"白酒>",
+              "goodName":"五粮液>",
+              "goodMsg":"52°五粮液股份有限公司永不分离精品500ml（6瓶装）"
+             }],
+   
+    "middleImg":[{
+                 "middleImg01":"img/goodDetail/d75b339a-dc81-4a92-9477-99fea4becc0bSource.jpg",
+                 "middleImg02":"img/goodDetail/2_350.png",
+                 "middleImg03":"img/goodDetail/3_350.png",
+                 "middleImg04":"img/goodDetail/4_350.png",
+                 "middleImg05":"img/goodDetail/5_350.png"
+                }],                    
+    "smallImg":[{
+                 "smallImg01":"img/goodDetail/d75b339a-dc81-4a92-9477-99fea4becc0bS.jpg",
+	               "smallImg02":"img/goodDetail/a5037453-165e-4384-8c92-197768db478eS.jpg",
+	               "smallImg03":"img/goodDetail/f385a270-2128-4242-ba6d-e78d5aa5dc95S.jpg",
+	               "smallImg04":"img/goodDetail/5d8804e4-0745-4f62-8cbf-0c1c20193894S.jpg",
+	               "smallImg05":"img/goodDetail/819082b3-34f3-4bff-bfbd-15739d83d2a5S.jpg"
+               }],               
+    "shangpin1":[{
+               "name":"52°五粮液股份有限公司永不分离精品500ml（6瓶装）",
+               "price":"￥199.00",
+               "code":"A0001454"
+               
+               }],
+     "shangpin2":[{
+               "name":"42°五粮液股份有限公司永不分离精品500ml（6瓶装）",
+               "price":"￥299.00",
+               "code":"A0001568"
+                 }]                                              
+}
